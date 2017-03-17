@@ -25,15 +25,15 @@ No **Core** do Azure Container Service, encontram-se os serviços que comunicam 
  
  ####Plugins Hapi.js criados:
 **Autenticação**
-    * auth-ces-auth
-    * auth-ces-comm
-    * auth-ces-dispatcher
-    * auth-ces-other
+* auth-ces-auth
+* auth-ces-comm
+* auth-ces-dispatcher
+* auth-ces-other
  
 **Resposta**
-    * reply-ces-auth
-    * reply-ces-comm
-    * reply-ces-handler
+* reply-ces-auth
+* reply-ces-comm
+* reply-ces-handler
     
 ####Azure Key Vault:
 O cofre de chave do Azure ajuda a salvaguardar as chaves criptográficas e os segredos utilizados pelas aplicações em nuvem e pelos serviços. 
