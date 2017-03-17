@@ -1,9 +1,39 @@
-#Backend 
+#Backend - Serviços
+
+#### Azure Container Service
+Nesta aplicação utilizou-se o **Azure Container Service** com uma implementação do Docker Swarm. O Docker Swarm, utilizando a API do Docker nativa, fornece um ambiente para a implementação de cargas de trabalho de conteúdo através de um conjunto agrupado de anfitriões de Docker. 
+
+![Diagrama](/images/diagrama.png)
+
+No diagrama acima, é possivel identificar duas secções no Container Service: **Core** e **Integrações**
+
+As integrações são os **serviços externos**,  que facilitam o acesso aos servidores SPMS e ADSE. Para tal, criou-se uma interface para cada serviço acedido (RNU, PEM, ADSE).
+
+No **Core** do Azure Container Service, encontram-se os serviços que comunicam com a base de dados **DocumentDB**, responsável pelo armazenamento de _logs_ encriptados  para diagnóstico de problemas de funcionamento da aplicação, telemetria, associação (encriptada) do dispositivo ao cidadão e ainda metadatas de cartões, notificações e dispatcher. Estes dados não são armazenados no dispositivo móvel, mas sim da base de dados de backend (DocumentDB),
+
+
+# FALTAM INFOS AQUI
+
+
+#### Especificações de acesso a serviços e frameworks utilizadas
+
+![Arquitetura CeS](images/servicos.png)
 
 ## Web and services application framework: [Hapi.Js](https://hapijs.com/) + Typescript
 
 	* [github - seed-hapi](https://github.com/dwyl/hapi-typescript-example)
  
+ ###Plugins Hapi.js criados:
+ ####Autenticação
+    * auth-ces-auth
+    * auth-ces-comm
+    * auth-ces-dispatcher
+    * auth-ces-other
+ ####Resposta
+    * reply-ces-auth
+    * reply-ces-comm
+    * reply-ces-handler
+    
 ##Azure Key Vault:
 O cofre de chave do Azure ajuda a salvaguardar as chaves criptográficas e os segredos utilizados pelas aplicações em nuvem e pelos serviços. 
 

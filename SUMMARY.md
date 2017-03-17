@@ -14,12 +14,11 @@
 ### Especificações Técnicas
 
 * [Arquitetura](arquitetura.md)
-* [Azure Container Service](arquitetura2.md)
 * [Segurança Fisica e Lógica](seguranca.md) 
 * [Funcionamento](funcionamento.md)
     * [Recolha de Dados](funcionamento.md#dados)
     * [Interconexões de Dados](funcionamento.md#comunicacao)
-* [Backend](backend.md)
+* [Backend - Serviços](backend.md)
 
 ### Desenvolvimento
 * [NativeScript and Angular](desenvolvimento.md)
