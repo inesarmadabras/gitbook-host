@@ -24,6 +24,7 @@ No **Core** do Azure Container Service, encontram-se os serviços que comunicam 
 * [github - seed-hapi](https://github.com/dwyl/hapi-typescript-example)
  
  ####Plugins Hapi.js criados:
+ 
 **Autenticação**
 * auth-ces-auth
 * auth-ces-comm
