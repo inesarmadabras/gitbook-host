@@ -46,7 +46,6 @@ Object Signing and Encryption (JOSE)](https://datatracker.ietf.org/wg/jose/docum
 ![Arquitetura CeS Comunicação](images/arqCeS2.png)
 
 
-
 ## Arquitetura NativeScript
 Para mais informações sobre a arquitetura default de nativescript consulte esta [secção](desenvolvimento.md)
 
@@ -62,10 +61,15 @@ Para mais informações sobre a arquitetura default de nativescript consulte est
 [carousel](http://plugins.nativescript.org/plugin/nativescript-carousel) - efeito carousel, utilizado nos ecrãs informativos iniciais
 
 [iqkeyboardmanager](http://plugins.nativescript.org/plugin/nativescript-iqkeyboardmanager) - wrapper para iOS que impede a a sopreposição do teclado nos controlos UITextView
+
 [fonticon](http://plugins.nativescript.org/plugin/nativescript-fonticon) - font icons com NativeScript
+
 [theme-core](http://plugins.nativescript.org/plugin/nativescript-theme-core) - core NativeScript theme
+
 [telerik-ui](http://plugins.nativescript.org/plugin/nativescript-telerik-ui) - Telerik UI
+
 [timedatepicker](http://plugins.nativescript.org/plugin/nativescript-timedatepicker) - selectores de data e hora para Android e iOS
+
 [snackbar](http://plugins.nativescript.org/plugin/nativescript-snackbar) - Material Design Snackbar para Android e SSSnackbar Cocoapod para iOS
 
 
