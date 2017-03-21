@@ -11,12 +11,12 @@ A aplicação comunica diretamente com o Reverse Proxy CeS. Cada serviço é exe
 A orquestração é feita segundo um ficheiro de configuração – `docker-compose.yaml`.  
 
 **Contentores Docker:**
-* **Autenticação RNU - **  responsável pela validação dos dados. Se forem validos, responde OK e envia uma sms com codigo TOTP pelo serviço da SPMS e faz um novo reply com o codigo TOTP (2-step authentication).
-* **Autenticação CMD - ** redirecciona o cidadão para a pagina [Autenticação.GOV](https://www.autenticacao.gov.pt). Depois de o cidadão se autenticar, é gerada uma chave.
+* **Autenticação RNU** - responsável pela validação dos dados. Se forem validos, responde OK e envia uma sms com codigo TOTP pelo serviço da SPMS e faz um novo reply com o codigo TOTP (2-step authentication).
+* **Autenticação CMD** - redirecciona o cidadão para a pagina [Autenticação.GOV](https://www.autenticacao.gov.pt). Depois de o cidadão se autenticar, é gerada uma chave.
 * **Dispatcher** - toda a comunicação da CeS, excepto Telemetria e Autenticação. No futuro, irá fazer a avaliação de Requests e Replies.
-* **Notificações -**
+* **Notificações** -
 * **Telemetria** - dados estatísticos \(quantas pessoas iniciaram sessão, descarregaram  cartões, etc\)
-* **Logging -**
+* **Logging** -
 
 As integrações são os **serviços externos**,  que facilitam o acesso aos servidores SPMS e ADSE. Para tal, criou-se uma interface para cada serviço acedido \(RNU, PEM, ADSE\). Cada serviço é executado num contentor Docker próprio e isolado. É criada uma rede virtual no Docker para isolar os contentores de integração dos de serviços Core.
 
