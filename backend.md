@@ -22,12 +22,12 @@ As integrações são os **serviços externos**,  que facilitam o acesso aos ser
 No **Core** do Azure Container Service, encontram-se os serviços que comunicam com a base de dados **DocumentDB**, responsável pelo armazenamento de _logs_ encriptados  para diagnóstico de problemas de funcionamento da aplicação, telemetria, associação (encriptada) do dispositivo ao cidadão e ainda metadatas de cartões, notificações e dispatcher. Estes dados não são armazenados no dispositivo móvel, mas sim da base de dados de backend (DocumentDB).
 
 **Dados armazenados na DocumentDB**
-**PublicKeys NSNS Collection** - 
-**Dispatcher Metadate Collection** - 
-**CartõesMetadata Collection** - Apenas guarda dados de _Look and Feel_ - cor, logo etc, não armazenando quaisquer dados pessoais
-**NotificaçõesMetadata Collection** - 
-**Telemetria Collection** - dados estatísticos 
-**LogAudition Collection** - 
+* **PublicKeys NSNS Collection** - 
+* **Dispatcher Metadate Collection** - 
+* **CartõesMetadata Collection** - Apenas guarda dados de _Look and Feel_ - cor, logo etc, não armazenando quaisquer dados pessoais
+* **NotificaçõesMetadata Collection** - 
+* **Telemetria Collection** - dados estatísticos 
+* **LogAudition Collection** - 
 
 
 
