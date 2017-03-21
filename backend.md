@@ -1,4 +1,4 @@
-#Backend - Serviços
+# Backend - Serviços
 
 #### Arquitectura {#arq}
 Nesta aplicação utilizou-se o **Azure Container Service** com uma implementação do Docker Swarm (ver a secção [Serviços](#Serviços) para mais informações) O Docker Swarm, utilizando a API do Docker nativa, fornece um ambiente para a implementação de cargas de trabalho de conteúdo através de um conjunto agrupado de anfitriões de Docker. 
@@ -60,7 +60,7 @@ Web and services application framework - framework de Node.js para desenvolver s
 * [github - Hapi.Js + TypeScript](https://github.com/dwyl/hapi-typescript-example)
 * [Biblioteca Joi](https://github.com/hapijs/joi) - Object schema description language and validator for JavaScript objects.
 
- ####Plugins Hapi.js criados:
+##### Plugins Hapi.js criados:
  
 **Autenticação**
 * auth-ces-auth
