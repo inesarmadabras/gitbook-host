@@ -8,6 +8,7 @@ juntamente com Angular 2, o resultado é uma arquitetura de software que permite
 
 ### Documentação auxiliar:
 [Tutorial + Documentação - TypeScript](https://www.typescriptlang.org/docs/tutorial.html)
+
 [Tutorial - NativeScript com TypeScript + Angular](http://docs.nativescript.org/angular/tutorial/ng-chapter-0).
 
 [Angular 2 - Style Guide](https://angular.io/styleguide)
