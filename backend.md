@@ -2,7 +2,7 @@
 
 #### Arquitectura {#arq}
 
-Nesta aplicação utilizou-se o **Azure Container Service** com uma implementação do Docker Swarm \(ver a secção [Serviços](#Serviços) para mais informações\) O Docker Swarm, utilizando a API do Docker nativa, fornece um ambiente para a implementação de cargas de trabalho de conteúdo através de um conjunto agrupado de anfitriões de Docker.
+Nesta aplicação utilizou-se o **Docker Swarm** \(ver a secção [Serviços](#Serviços) para mais informações\) no **Azure Container Service**. O Docker Swarm, utilizando a API do Docker nativa, fornece um ambiente para a implementação de cargas de trabalho de conteúdo através de um conjunto agrupado de anfitriões de Docker.
 
 ![Diagrama](/images/diagrama.png)
 
@@ -16,7 +16,7 @@ A orquestração é feita segundo um ficheiro de configuração – `docker-comp
 * **Dispatcher** - toda a comunicação da CeS, excepto Telemetria e Autenticação. No futuro, irá fazer a avaliação de Requests e Replies.
 * **Notificações** -
 * **Telemetria** - dados estatísticos \(quantas pessoas iniciaram sessão, descarregaram  cartões, etc\)
-* **Logging** -
+* **Logging** - auditorias e logs
 
 As integrações são os **serviços externos**,  que facilitam o acesso aos servidores SPMS e ADSE. Para tal, criou-se uma interface para cada serviço acedido \(RNU, PEM, ADSE\). Cada serviço é executado num contentor Docker próprio e isolado. É criada uma rede virtual no Docker para isolar os contentores de integração dos de serviços Core.
 
@@ -27,9 +27,9 @@ No **Core** do Azure Container Service, encontram-se os serviços que comunicam 
 * **PublicKeys NSNS Collection** - 
 * **Dispatcher Metadate Collection** - 
 * **CartõesMetadata Collection** - Apenas guarda dados de _Look and Feel_ - cor, logo etc, não armazenando quaisquer dados pessoais
-* **NotificaçõesMetadata Collection** - 
+* **NotificaçõesMetadata Collection** 
 * **Telemetria Collection** - dados estatísticos 
-* **LogAudition Collection** - 
+* **LogAudition Collection** - auditorias e logs
 
 ## Serviços e Tecnologias {#servicos}
 
@@ -180,6 +180,3 @@ Para a gestão de passwords, utilizou-se o One-Time Password manager. Compativel
 #### JSON Web Encryption \(JWE\) - Payload MessageAction\(CeS\)
 
 * [Docs](https://tools.ietf.org/html/rfc7516)
-
-
-
