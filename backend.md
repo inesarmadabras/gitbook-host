@@ -34,13 +34,14 @@ No **Core** do Azure Container Service, encontram-se os serviços que comunicam 
 ## Serviços e Tecnologias {#servicos}
 ![Arquitetura CeS](images/servicos.png)
 ### Operations support systems (OSS)
-**[Node.js](#nodejs)**
-**[Hapi.js](#happyjs)**
-**[PM2](#pm2)**
-**[Docker](#docker)**
-**[DocumentDB / MongoDB](#docDB)** 
-**[NGINX](#nginx)**
-**[NPM modules](#npm)** 
+
+* [Node.js](#nodejs)
+* [Hapi.js](#happyjs)
+* [PM2](#pm2)
+* [Docker](#docker)
+* [DocumentDB / MongoDB](#docDB)
+* [NGINX](#nginx)
+* [NPM modules](#npm) 
 
 
 #### Node.js {#nodejs}
