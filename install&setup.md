@@ -9,7 +9,7 @@ Recomenda-se a realização do seguinte tutorial [NativeScript: Get started with
 
 *Editor de texto recomendado* - Visual Studio Code, pois possui suporte de TypeScript incorporado
 
-####Step 1: Instalar Node.js
+#### Step 1: Instalar Node.js
 A CLI do NativeScript é baseada em Node.js e, como tal é necessário ter o Node.js instalado para usar o NativeScript.
 
 
@@ -29,7 +29,7 @@ https://nodejs.org/en/download/
 
 
 
-####Step 2: Instalar NativeScript CLI
+#### Step 2: Instalar NativeScript CLI
 ```shell
 npm install -g nativescript
 ```
@@ -43,13 +43,13 @@ $ tns
 │ Alias   │ $ nativescript <Command> [Command Parameters] [--command <Options>] │
 ```
 
-####Step 3: Clonar o repositório do VSTS
+#### Step 3: Clonar o repositório do VSTS
 Depois de lhe serem garantidas as permissões necessarias para aceder ao repositório, deverá executar o seguinte comando:
 ```shell
 git clone https://nma-spms.visualstudio.com/CeS/_git/CeS-App
 ```
 Será solicitado que coloque o seu Username (xxx@spms.min-sade.pt) e respetiva palavra-passe.
-####Step 4: Correr applicação
+#### Step 4: Correr applicação
 
 Este comando instala as dependencias listadas no npm caso ainda nao estejam instaladas
 ```shell
