@@ -1,6 +1,6 @@
-#StyleGuide
+# StyleGuide
 
-##TypeScript {#typescript}
+## TypeScript {#typescript}
 
 1. [Comandos basicos](styleguide.md#T1)
 2. [Do & Don'ts](styleguide.md#T2)
@@ -19,7 +19,7 @@
 [Documentação Oficial](https://www.typescriptlang.org/docs/tutorial.html)
 
 
-###1. Comandos basicos {#T1}
+### 1. Comandos basicos {#T1}
 
 1. Instalar
 ```shell
@@ -59,7 +59,7 @@ tsc main.ts --watch
 
 ### Do & Don'ts  {#T2}
 
-####1. Nomes {#nomes}
+#### 1. Nomes {#nomes}
 
 1. Usar PascalCase para type names.
     
@@ -75,7 +75,7 @@ tsc main.ts --watch
     
 7. Utilizar palavras completas em nomes, sempre que possivel.
 
-####2. Tipos: `number`, `string`,`boolean`, `any` VS `Number`, `String`, `Boolean` e `Object` {#tipos}
+#### 2. Tipos: `number`, `string`,`boolean`, `any` VS `Number`, `String`, `Boolean` e `Object` {#tipos}
 Nunca use os tipos `Number`, `String`, `Boolean` ou `Object`. Esses tipos referem-se a objetos não-primitivos que quase nunca são usados adequadamente em código JavaScript.
 
 ```typescript
@@ -103,21 +103,21 @@ Types partilhados devem ser definidos em 'types.ts'.
 
 Num ficheiro, definições de type devem aparecer primeiro.
 
-###3. `Null` não é nosso amigo {#nullvsundefined}
+### 3. `Null` não é nosso amigo {#nullvsundefined}
 Utilizar `undefined` em vez de `null`  ([*`null` vs. `undefined` in TypeScript land by Basarat*](https://medium.com/@basarat/null-vs-undefined-in-typescript-land-dc0c7a5f240a#.mcq4te64w))
 
 
-####4. Ficheiros auto-gerados `".generated.*` {#files}
+#### 4. Ficheiros auto-gerados `".generated.*` {#files}
 
 Apenas um ficheiro por componente lógico (e.g. parser, scanner, emitter, checker).
 
 Ficheiros com sufixo ".generated.*" são auto-gerados, não os edite manualmente.
 
-###5. Imutabilidade (#imutabilidade)
+### 5. Imutabilidade (#imutabilidade)
 Considere objetos como Nodes, Símbolos, etc. são imutáveis fora do componente que os criou. Não os mude.
 Considere arrays como imutáveis por padrão após a criação.
 
-####6. Callback Types {#callbacktypes}
+#### 6. Callback Types {#callbacktypes}
 Não usar o tipo `any` para callbacks cujo valor será ignorado
 ```typescript
 /* WRONG */
@@ -141,10 +141,10 @@ function fn(x: () => void) {
 }
 ```
 
-####7. Parâmetros Opcionais em Callbacks {#callbacktypes2}
+#### 7. Parâmetros Opcionais em Callbacks {#callbacktypes2}
 Não usar parâmetros opcionais em callbacks, a não ser que sejam efetivamente opcionais. ([Ver abaixo](styleguide.md#arrasto))
 
-####8. Overloads e Callbacks {#overloads}
+#### 8. Overloads e Callbacks {#overloads}
 Não escrever overloads separadas que diferem apenas no número de argumentos do callback. É preferivel escrever apenas um overload com o máximo número de argumentos.
 ```typescript
 /* WRONG */
@@ -159,7 +159,7 @@ Um callback pode sempre desconsiderar um parâmetro, pelo que não há necessida
 declare function beforeAll(action: (done: DoneFn) => void, timeout?: number): void;
 ```
 
-####9. Ordenação {#ordem}
+#### 9. Ordenação {#ordem}
 É recomendado não colocar overloads gerais antes de overload especificos.
 Na resolução de funções, Typescript escolhe o primeiro overload correspondente (*first matching overload*). Quando o overload interpretado é mais geral, as seguintes são ocultadas, não sendo chamadas.
 ```typescript
@@ -182,7 +182,7 @@ var myElem: HTMLDivElement;
 var x = fn(myElem); // x: string, :)
 ```
 
-####10. Evitar arrasto de pârametros através de opcionais {#arrasto}
+#### 10. Evitar arrasto de pârametros através de opcionais {#arrasto}
 Não escrever overloads que diferem apenas em parâmetros de arrasto.
 
 ```typescript
@@ -201,7 +201,7 @@ interface Example {
 }
 ```
 
-####11. Union Types (ex: `number|string`) {#union}
+#### 11. Union Types (ex: `number|string`) {#union}
 Não escrever overloads que diferem apenas no tipo, em apenas uma posição de argumento.
 
 ```typescript
@@ -213,7 +213,7 @@ interface Moment {
 }
 ```
 
-Em vez disso, utilizar union types, pois permite ter um valor com varias representações ou formatos na mesma posição de memória.
+Em vez disso, utilizar _union types_, pois permite ter um valor com varias representações ou formatos na mesma posição de memória.
 
 ```typescript
 /* OK */
@@ -233,7 +233,9 @@ function fn(x: number|string) {
     return moment().utcOffset(x);
 ```
 
-##Git {#git}
+---
+
+## Git {#git}
 Como as ferramentas utilizadas estão em inglês, esta secção estará maioritariamente em inglês
 1. [Submeter um issue / bug](#G1)
 2. [Submeter um Pull Request (PR)](#G2)
