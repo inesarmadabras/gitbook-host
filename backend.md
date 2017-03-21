@@ -31,6 +31,8 @@ No **Core** do Azure Container Service, encontram-se os serviços que comunicam 
 * **Telemetria Collection** - dados estatísticos 
 * **LogAudition Collection** - auditorias e logs
 
+---
+
 ## Serviços e Tecnologias {#servicos}
 
 ![Arquitetura CeS](images/servicos.png)
@@ -126,6 +128,8 @@ Node Package Manager. Todos os módulos criados para as aplicações MySNS podem
 
 * [MySNS - Available Packages](https://npm.dev.mysns.pt/)
 
+---
+
 ### Segurança - Bibliotecas e Tools {#seg}
 
 De modo a facilitar o entendimento da CeS, optou-se por descrever algumas bibliotecas e ferramentas.
@@ -180,3 +184,6 @@ Para a gestão de passwords, utilizou-se o One-Time Password manager. Compativel
 #### JSON Web Encryption \(JWE\) - Payload MessageAction\(CeS\)
 
 * [Docs](https://tools.ietf.org/html/rfc7516)
+
+
+
