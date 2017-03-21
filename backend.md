@@ -9,10 +9,10 @@ Nesta aplicação utilizou-se o **Azure Container Service** com uma implementaç
 No diagrama acima, é possivel identificar duas secções no Container Service: **Core** e **Integrações**  
 A aplicação comunica diretamente com o Reverse Proxy CeS. Cada serviço é executado num contentor Docker. Todos os contentores Docker são independentes \(possuindo cada um o seu Dockerfile\), pelo que a inoperabilidade de um não afeta os restantes.  
 A orquestração é feita segundo um ficheiro de configuração – `docker-compose.yaml`.  
-**Contentores Docker:**
 
-* **Autenticação RNU - **
-* **Autenticação CMD - **
+**Contentores Docker:**
+* **Autenticação RNU - **  responsável pela validação dos dados. Se forem validos, responde OK e envia uma sms com codigo TOTP pelo serviço da SPMS e faz um novo reply com o codigo TOTP (2-step authentication).
+* **Autenticação CMD - ** redirecciona o cidadão para a pagina [Autenticação.GOV](https://www.autenticacao.gov.pt). Depois de o cidadão se autenticar, é gerada uma chave.
 * **Dispatcher** - toda a comunicação da CeS, excepto Telemetria e Autenticação. No futuro, irá fazer a avaliação de Requests e Replies.
 * **Notificações -**
 * **Telemetria** - dados estatísticos \(quantas pessoas iniciaram sessão, descarregaram  cartões, etc\)
