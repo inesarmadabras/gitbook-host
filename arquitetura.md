@@ -1,4 +1,4 @@
-#Arquitetura da Aplicação
+# Arquitetura da Aplicação
 
 
 ![Arquitetura CeS](images/geral.png)
@@ -8,7 +8,7 @@ De o modo geral, é constituida por 2 componentes gerais: **Módulos** e **Compo
 
 ![Arquitetura CeS](images/arqces1.png)
 
-###Módulos
+### Módulos
 
 Entre os módulos, cada um destes tem a sua responsabilidade, facilitando assim uma manutenção mais simples.
 
@@ -26,7 +26,7 @@ Entre os módulos, cada um destes tem a sua responsabilidade, facilitando assim 
 
 
 
-###Serviços
+### Serviços
 
 **AuthenticationService** - Autenticação e ligação aos servidores  (Backend) de forma segura e encriptada.
 
