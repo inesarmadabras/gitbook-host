@@ -19,9 +19,9 @@
     * [Recolha de Dados](funcionamento.md#dados)
     * [Interconexões de Dados](funcionamento.md#comunicacao)
 * [Backend - Serviços](backend.md)
-    *[Arquitetura Backend](backend.md#arq)
-    *[Serviços e Tecnologias](backend.md#servicos)
-    *[Segurança - Bibliotecas & Tools](backend.md#seg)
+    * [Arquitetura Backend](backend.md#arq)
+    * [Serviços e Tecnologias](backend.md#servicos)
+    * [Segurança - Bibliotecas & Tools](backend.md#seg)
 
 ### Desenvolvimento
 * [NativeScript and Angular](desenvolvimento.md)
