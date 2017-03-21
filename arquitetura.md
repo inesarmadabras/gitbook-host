@@ -32,8 +32,7 @@ Entre os módulos, cada um destes tem a sua responsabilidade, facilitando assim 
 
 **BackendService** - ligação às base de dados dos vários sistemas de informação (centrais e locais) e o Servidor CeS (Azure Container Service -Docker Swarm) é feita usando o protocolo HTTPS (ver diagrama 1)
 
-Toda a informação trocada é ainda encriptada e assinada digitalmente usando os algoritmos de encriptação RSA (2048 bit) e AES (256 bit). O formato de dados utilizado é [JSON
-Object Signing and Encryption (JOSE)](https://datatracker.ietf.org/wg/jose/documents/). O par de chaves RSA do servidor está alojado no Azure Key Vault, sendo as operações de assinatura e desencriptação efetuadas lá.
+Toda a informação trocada é ainda encriptada e assinada digitalmente usando os algoritmos de encriptação RSA (2048 bit) e AES (256 bit). O formato de dados utilizado é [JOSE - JSON Object Signing and Encryption](https://datatracker.ietf.org/wg/jose/documents/). O par de chaves RSA do servidor está alojado no Azure Key Vault, sendo as operações de assinatura e desencriptação efetuadas lá.
 
 
 **Storage Service** - Serviço de armazenamento de dados no dispositivo móvel, devidamente encriptado. Através deste serviço, é armazenado o PIN, Home View e os cartões. 
@@ -44,6 +43,7 @@ Object Signing and Encryption (JOSE)](https://datatracker.ietf.org/wg/jose/docum
 ### Comunicação
 
 ![Arquitetura CeS Comunicação](images/arqCeS2.png)
+
 
 
 ## Arquitetura NativeScript
@@ -61,15 +61,10 @@ Para mais informações sobre a arquitetura default de nativescript consulte est
 [carousel](http://plugins.nativescript.org/plugin/nativescript-carousel) - efeito carousel, utilizado nos ecrãs informativos iniciais
 
 [iqkeyboardmanager](http://plugins.nativescript.org/plugin/nativescript-iqkeyboardmanager) - wrapper para iOS que impede a a sopreposição do teclado nos controlos UITextView
-
 [fonticon](http://plugins.nativescript.org/plugin/nativescript-fonticon) - font icons com NativeScript
-
 [theme-core](http://plugins.nativescript.org/plugin/nativescript-theme-core) - core NativeScript theme
-
 [telerik-ui](http://plugins.nativescript.org/plugin/nativescript-telerik-ui) - Telerik UI
-
 [timedatepicker](http://plugins.nativescript.org/plugin/nativescript-timedatepicker) - selectores de data e hora para Android e iOS
-
 [snackbar](http://plugins.nativescript.org/plugin/nativescript-snackbar) - Material Design Snackbar para Android e SSSnackbar Cocoapod para iOS
 
 
