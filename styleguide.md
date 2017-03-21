@@ -236,21 +236,23 @@ function fn(x: number|string) {
 ---
 
 ## Git {#git}
+
 Como as ferramentas utilizadas estão em inglês, esta secção estará maioritariamente em inglês
 1. [Submeter um issue / bug](#G1)
 2. [Submeter um Pull Request (PR)](#G2)
 3. [Commit Message Guidelines](#G3)
 
 ### 1. Submeter um issue / bug {#G1}
+
 Ao submeter um *issue* deverá indicar as seguintes informações:
 
-    * Descrição do erro
-    * Caso de uso - o que estava a fazer quando ocorreu o erro
-    * Versão da aplicação 
-    * Sistema Operativo
-    * Screenshots (se aplicável)
-    * Related Issues - se estiver relacionado com outros *issues* abertos
-    * Sugerir uma correcção - se souber corrigir o *bug* 
+  * Descrição do erro
+  * Caso de uso - o que estava a fazer quando ocorreu o erro
+  * Versão da aplicação 
+  * Sistema Operativo
+  * Screenshots (se aplicável)
+  * Related Issues - se estiver relacionado com outros *issues* abertos
+  * Sugerir uma correcção - se souber corrigir o *bug* 
 
 ### 2. Submeter um Pull Request (PR) {#G2}
 
