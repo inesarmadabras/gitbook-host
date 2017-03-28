@@ -37,7 +37,7 @@ O suporte é fornecido pela comunidade que se cria à volta da tecnologia - há 
 
 Estas comunidades de programadores geralmente são heterogénas - são programadores que não pertencem necessariamente à mesma organização.
 
-Um bom exemplo é a [Linux Foundation][https://www.linuxfoundation.org/], uma organização sem fins lucrativos com reconhecimento mundial com milhares de colaboradores, que trabalham para o desenvolvimento de tecnologias e resolução de problemas de segurança criticos. Esta fundação open-source tem centenas de projectos colaborativos open-souce e é financiada por empresas como Microsoft,  Bloomberg, Intel, Huawei, IBM, Cisco, Fuitsu,  Oracle, Facebook, Accenture, Tshiba, Vmware, Adobe, Amazon Web Services, Bosch, ebay, Google [entre outras](https://www.linuxfoundation.org/members/corporate). 
+Um bom exemplo é a [Linux Foundation](https://www.linuxfoundation.org/), uma organização sem fins lucrativos com reconhecimento mundial com milhares de colaboradores, que trabalham para o desenvolvimento de tecnologias e resolução de problemas de segurança criticos. Esta fundação open-source tem centenas de projectos colaborativos open-souce e é financiada por empresas como Microsoft,  Bloomberg, Intel, Huawei, IBM, Cisco, Fuitsu,  Oracle, Facebook, Accenture, Tshiba, Vmware, Adobe, Amazon Web Services, Bosch, ebay, Google [entre outras](https://www.linuxfoundation.org/members/corporate). 
 No entanto, existem muitas outras fundações OpenSource de sucesso ([Apache Software Foundation](https://www.apache.org), [Eclipse Foundation](https://eclipse.org/org/foundation/), [Mozilla Foundation](https://www.mozilla.org/) ) e outros projetos independentes ([Joomla](https://www.joomla.org/), [Wordpress](https://wordpress.org/))
 
 
