@@ -11,8 +11,8 @@ Este FAQ pretende responder a questões comuns relacionadas com OpenSource, abor
 7. [Mas é código aberto! Como é que pode ser seguro?](#P7)
 8. [O que dizem as instituições governamentais?](#P8)
 9. [Software livre pode ser licenciado?](#P9)
-10.[Exemplos de Projetos OpenSource / baseados em OpenSource](#P10)
-11.[Documentação](#P11)
+10. [Exemplos de Projetos OpenSource / baseados em OpenSource](#P10)
+11. [Documentação](#P11)
 
 ### 1. O que é OpenSource? {#P1}
 
@@ -63,7 +63,7 @@ Ao adquirir um software / licença fechada, tudo o que o cliente tem são promes
 
 Apesar de existirem diferenças entre software Open Source e Closed Source que afectam a segurança - havendo desvantagens tanto no OpenSource como no ClosedSource, estes factores tendem a equilibrar-se, não representando diferenças significativas neste ponto.
 
-[Segundo o Communications-Electronics Security Group]((http://security.governmentcomputing.com/features/2011/oct/25/cesg-information-assurance-government)) do Governo do Reino Unido, _Não há diferença estatística significativa nas taxas de vulnerabilidade entre software livre e software proprietário_, embora a motivação para investir em segurança seja diferente em cada modelo, assim como as vulnerabilidades. Este afirmação é replicada na [_OSS Toolkit Security Note_](https://www.gov.uk/government/uploads/system/uploads/attachment_data/file/78967/OSS_Toolkit_Security_Note_v1.0.pdf) publicada pelo Governo Britânico - _Open Source, como uma categoria, não é mais ou menos seguro do que o Closed Source_.
+[Segundo o Communications-Electronics Security Group]((http://security.governmentcomputing.com/features/2011/oct/25/cesg-information-assurance-government)) do Governo do Reino Unido, _**Não há diferença estatística significativa nas taxas de vulnerabilidade entre software livre e software proprietário**_, embora a motivação para investir em segurança seja diferente em cada modelo, assim como as vulnerabilidades. Este afirmação é replicada na [_OSS Toolkit Security Note_](https://www.gov.uk/government/uploads/system/uploads/attachment_data/file/78967/OSS_Toolkit_Security_Note_v1.0.pdf) publicada pelo Governo Britânico - _Open Source, como uma categoria, não é mais ou menos seguro do que o Closed Source_.
 
 
 ### 7. Não há o risco de haverem pessoas mal intencionadas a criarem problemas de propósito? {#P7}
@@ -112,7 +112,7 @@ A FSF publica diferentes licenças escritas com o propósito de promover e prese
 
 No entanto, existem outras licenças Open Source bastante populares.
 
-* [MIT License](http://www.opensource.org/licenses/mit-license.php] 
+* [MIT License](http://www.opensource.org/licenses/mit-license.php)
 A licença MIT permite que o software seja tratato sem restrições para o uso, modificação e distribuição. Desta forma, pode ser utilizada tanto em projetos de software livre, quanto em projeto de software proprietário. No texto desta licença não existe copyright, desta forma outros grupos podem modificar a licença, com o objetivo de atender as suas necessidades.
 
 * [Mozilla Public License](http://www.mozilla.org/MPL/)
