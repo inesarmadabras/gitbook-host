@@ -135,23 +135,25 @@ A Mozilla Public License é uma licença para software livre de código aberto. 
 
 ### 10. Exemplos de Projetos Open Source / baseados em Open Source {#P10}
 
-Tal como supramencionado, a Linux Foundation é um dos maiores exemplos de comunidades open source.  Graças a esta comunidade, desenvolveram-se tecnologias e serviços que agora são utilizados em todo o mundo. Deixaremos dois exemplos:
-**Node.JS** - tecnologia utilizada na SPMS, é um interpretador de código JavaScript server-side e tem uma das maiores comunidades open-source do mundo, com mais de 4 milhões de utilizadores ativos. Em parte, graças à fundação Linux.
+Tal como supramencionado, a [Linux Foundation](https://www.linuxfoundation.org) é um dos maiores exemplos de comunidades open source.  Graças a esta comunidade, desenvolveram-se tecnologias e serviços que agora são utilizados em todo o mundo. Deixaremos dois exemplos:
 
-**Let's Encrypt** - um serviço gratuito de certificados de segurança, que procura contribuir para uma internet mais segura e acessível. É aberto e não está sobre o controlo de nenhuma empresa. Cresceu graças ao apoio de dezenas de entidades como a Mozilla, Cisco, Chrome e Facebook
+**[Node.JS](https://nodejs.org/en/)** - tecnologia utilizada na SPMS, é um interpretador de código JavaScript server-side e tem uma das maiores comunidades open-source do mundo, com mais de 4 milhões de utilizadores ativos. Em parte, graças à fundação Linux.
 
-Paralelamente, a Apache Software Foundation também teve bastantes projectos populares. Entre eles:
-**Apache Tomcat** - Um dos mais populares open source Java Application Servers.
+**[Let's Encrypt](https://letsencrypt.org/)** - um serviço gratuito de certificados de segurança, que procura contribuir para uma internet mais segura e acessível. É aberto e não está sobre o controlo de nenhuma empresa. Cresceu graças ao apoio de dezenas de entidades como a Mozilla, Cisco, Chrome e Facebook
 
-**Apache HTTP Server** - servidor HTTP mais utilizado no mundo
+Paralelamente, a [Apache Software Foundation](https://www.apache.org/) também teve bastantes projectos populares. Entre eles:
+**[Apache Tomcat](http://tomcat.apache.org/)** - Um dos mais populares open source Java Application Servers.
 
-**OpenOffice.org** - conjunto de aplicativos e ferramentas de produtividade
+**[Apache HTTP Server](https://httpd.apache.org/)** - servidor HTTP mais utilizado no mundo
+
+**[OpenOffice.org](http://www.openoffice.org/)** - conjunto de aplicativos e ferramentas de produtividade
 
 
 Outros projetos Open Source independentes:
 
-**OpenSSL** -  projeto de Open Source que fornece um conjunto de ferramentas completo para os protocolos TLS (Transport Layer Security) e Secure Sockets Layer (SSL). É também uma biblioteca de criptografia.
-**WordPress Foundation** - plataforma Open Source de blogging e gerenciamento de conteúdo para a web, com milhares de plugins e temas publicados todos os dias
+**[OpenSSL](https://www.openssl.org/)** -  projeto de Open Source que fornece um conjunto de ferramentas completo para os protocolos TLS (Transport Layer Security) e Secure Sockets Layer (SSL). É também uma biblioteca de criptografia.
+
+**[WordPress Foundation](http://wordpressfoundation.org/)** - plataforma Open Source de blogging e gerenciamento de conteúdo para a web, com milhares de plugins e temas publicados todos os dias
 
 Em Portugal, existem diversos projetos nacionais baseados em open source (entenda-se - que usam tecnologias open source). Alguns destes são divulgados pela [ESOP - Associação de Empresas de Software Open Source Portuguesas]( http://www.esop.pt/)
 
