@@ -1,5 +1,5 @@
 
-#Open Source
+# Open Source
 
 Este FAQ pretende responder a questões comuns relacionadas com Open Source, abordando o uso de Open Source Software (OSS) bem como a disponibilização de código.
 
@@ -75,7 +75,7 @@ Hierarchy and centralization in Free and Open Source Software team communication
 _Os projetos são na sua maioria bastante hierárquicos em quatro medidas de hierarquia, consistentes com pesquisas anteriores, mas contrárias à imagem popular desses projetos. Além disso, verificamos que o nível de centralização está negativamente correlacionado com o tamanho do projeto, sugerindo que projetos maiores se tornam mais modulares._
 
 A imagem abaixo, publicada no mesmo artigo, apresenta uma estrutura simplificada tipica de uma comunidade Open Source (_onion-like structure_).
-![Arquitetura de uma Comunidade OSS](ossh.png)
+![Arquitetura de uma Comunidade OSS](images/ossh.png)
 
 
 ### 8. O que dizem as instituições governamentais? {#P8}
