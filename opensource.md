@@ -1,4 +1,3 @@
-
 # Open Source
 
 Este FAQ pretende responder a questões comuns relacionadas com Open Source, abordando o uso de Open Source Software (OSS) bem como a disponibilização de código.
@@ -8,7 +7,7 @@ Este FAQ pretende responder a questões comuns relacionadas com Open Source, abo
 3. [Como é possível ter suporte sem pagar pelo produto?](#P3)
 4. [Qual é o interesse de as empresas e dos países?](#P4)
 5. [Porque é que alguém quereria desenvolver para um projeto Open Source sem ter retorno monetário?](#P5)
-6. [Não há o risco de haverem pessoas mal intencionadas a criarem problemas de propósito?](#P6)
+6. [Qual é a estrutura de uma comunidade Open Source? Não há o risco de haverem pessoas mal-intencionadas? ](#P6)
 7. [Mas é código aberto! Como é que pode ser seguro?](#P7)
 8. [O que dizem as instituições governamentais?](#P8)
 9. [Software livre pode ser licenciado?](#P9)
@@ -67,7 +66,7 @@ Apesar de existirem diferenças entre software Open Source e Closed Source que a
 [Segundo o Communications-Electronics Security Group]((http://security.governmentcomputing.com/features/2011/oct/25/cesg-information-assurance-government)) do Governo do Reino Unido, _**Não há diferença estatística significativa nas taxas de vulnerabilidade entre software livre e software proprietário**_, embora a motivação para investir em segurança seja diferente em cada modelo, assim como as vulnerabilidades. Este afirmação é replicada na [_OSS Toolkit Security Note_](https://www.gov.uk/government/uploads/system/uploads/attachment_data/file/78967/OSS_Toolkit_Security_Note_v1.0.pdf) publicada pelo Governo Britânico - _Open Source, como uma categoria, não é mais ou menos seguro do que o Closed Source_.
 
 
-### 7. Não há o risco de haverem pessoas mal-intencionadas a criarem problemas de propósito? {#P7}
+### 7. Qual é a estrutura de uma comunidade Open Source? Não há o risco de haverem pessoas mal-intencionadas? {#P7}
 Nos projetos open source não deixa de haver uma hierarquia - existe um sistema de governação. Todas as submissões (pull request) têm que ser revistas e aprovadas. O trabalho de um programador é revisto e auditado por outros.
 
 Um estudo publicado por Kevin Crowston and James Howison ([_
