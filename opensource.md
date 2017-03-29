@@ -1,4 +1,4 @@
-#Open Source
+# Open Source
 
 Este FAQ pretende responder a questões comuns relacionadas com Open Source, abordando o uso de Open Source Software (OSS) bem como a disponibilização de código.
 
