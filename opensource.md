@@ -72,6 +72,7 @@ Nos projetos open source não deixa de haver uma hierarquia - existe um sistema 
 
 Um estudo publicado por Kevin Crowston and James Howison ([_
 Hierarchy and centralization in Free and Open Source Software team communications_](https://crowston.syr.edu/sites/crowston.syr.edu/files/HierarchyAndCentralization.pdf) - School of Information Studies Syracuse University) que procurou analisar as interações de correcção de bugs no sistema de _bug tracking_ em mais de 150 projetos Open Source com mais de trinta mil participantes, conclui que 
+
 _Os projetos são na sua maioria bastante hierárquicos em quatro medidas de hierarquia, consistentes com pesquisas anteriores, mas contrárias à imagem popular desses projetos. Além disso, verificamos que o nível de centralização está negativamente correlacionado com o tamanho do projeto, sugerindo que projetos maiores se tornam mais modulares._
 
 A imagem abaixo, publicada no mesmo artigo, apresenta uma estrutura simplificada tipica de uma comunidade Open Source (_onion-like structure_).
@@ -97,6 +98,7 @@ Em **Portugal**, na [Resolução do Conselho de Ministros n.º 12/2012](https://
 Entre as medidas de estímulo ao crescimento económico encontram -se a adoção de software aberto nos sistemas do Estado, a melhoria dos processos e soluções de compras públicas, a disseminação internacional de metodologias, de soluções TIC e de conhecimento através de clusters de competitividade nacionais e, no âmbito da estratégia de Administração Aberta, a ampla **disponibilização de informação do sector público em formatos reutilizáveis**, através de projetos como o dados.gov.pt, favorecendo a coprodução de serviços com a sociedade civil, com valor acrescentado para o Estado e para a economia. 
 
 Em particular, destaca-se a **Medida 21: Adoção de software aberto nos sistemas de informação do Estado**, que visa promover a utilização de software aberto nos sistemas de informação da AP sempre que a análise à maturidade e o custo total de posse revelem ser mais favoráveis.
+
 _No âmbito desta medida e em linha com a estratégia da Direção -Geral da Informática da Comissão Europeia para a adoção progressiva de soluções open source, devem ser identificadas as ferramentas que devem ser, desde já, utilizadas pela AP com carácter de recomendação ou obrigatoriedade. Este estudo, que não pode ser dissociado do Catálogo de Software do Estado (ver Medida 17), promoverá a utilização de software aberto, produzido pelo Estado, privados ou sociedade civil, de acordo com a licença europeia para software aberto, a EUPL, aprovada pela Comissão Europeia_
 
 O [PGETIC possui uma plataforma de controlo de indicadores](https://tic.gov.pt/pgetic), calculados de acordo com os dados de execução reportados pelos Ministérios e pelas entidades responsáveis pelas Medidas de implementação transversal do PGETIC. Nesta plataforma web, e possível consultar a taxa de execução global e por ministério, a poupança quantitativa efetuada. Até à data, a medida apresenta uma [taxa de execução global superior a 50%](https://tic.gov.pt/pgetic/medidas/adocao-de-software-aberto-nos-sistemas-de-informacao-do-estado), .
@@ -107,7 +109,7 @@ Sim, pode ser. Uma licença de software livre, à semelhança do software propri
 A diferença é que, em uma licença de software proprietário toda a cópia, redistribuição, ou modificação são estritamente proibidas, podendo ter como sequência processos judiciais. Para contornar as restrições anteriormente referidas, deve-se contactar a entidade que detém os direitos do software, para que este dê permissão para o fazer, ou então adquirir uma licença para cada um dos casos anteriormente descritos.
 
 No caso do software livre, existe uma grande variedade de licenças, que se adaptam a casa projeto, seja gratuito ou comercial.
-A primeira licença de software livre foi criada por Richard Stallman na Free Software Foundation, no âmbito do projeto GNU.
+A primeira licença de software livre foi criada por Richard Stallman na Free Software Foundation (FSF), no âmbito do projeto GNU.
 
 A FSF publica diferentes licenças escritas com o propósito de promover e preservar a liberdade do software.
 
@@ -125,7 +127,9 @@ A licença MIT permite que o software seja tratado sem restrições para o uso, 
 A Mozilla Public License é uma licença para software livre de código aberto. Esta licença define que o código-fonte copiado ou alterado sob ela deve continuar sob a mesma licença. Entretanto, é permitido que este código seja combinado em um software com arquivos proprietários. Além disso, é possível criar uma versão proprietária de um código sob a licença Mozilla. Esta licença também permite a redistribuição do código produzido, mas obriga a inclusão de citação do autor.
 
 * [Apache License](http://www.apache.org/licenses)
+
 * [BSD 2 Clause](http://www.opensource.org/licenses/bsd-license.php)
+
 * [BSD 3 Clause](https://opensource.org/licenses/BSD-3-Clause)
 
 ### 10. Exemplos de Projetos Open Source / baseados em Open Source {#P10}
