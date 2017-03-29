@@ -1,4 +1,4 @@
-# Open Source
+#Open Source
 
 Este FAQ pretende responder a questões comuns relacionadas com Open Source, abordando o uso de Open Source Software (OSS) bem como a disponibilização de código.
 
@@ -26,6 +26,7 @@ Por software Open Source entende-se todo o programa informático cujo código fo
 ### 2. Porquê usar tecnologias Open Source? {#P2}
 Tendo em vista a necessidade de proteger a informação dos cidadãos, a implementação de tecnologias e sistemas Open Source assegura a transparência e o conhecimento profundo do funcionamento das mesmas. A não dependência de fabricantes externos, par além de promover a integração de empresas e comunidades tecnológicas, fomenta a sinergia organizacional e a partilha de conhecimento. 
 Por poder ser adaptado às necessidades de cada projeto, pode proporcionar uma maior fiabilidade e melhor experiência para os programadores - e em consequência, para os utilizadores.
+
 Da não dependência de fabricantes, resulta uma redução bastante significativa de custos, que podem ser alocados noutras funcionalidades que melhorem o serviço prestado aos mesmos utilizadores.
 
 Paralelamente, verifica-se também uma maior interoperabilidade - uma maior liberdade para integrar com outros sistemas de Gestão Integrada (ERP).
@@ -37,6 +38,7 @@ O suporte é fornecido pela comunidade que se cria à volta da tecnologia - há 
 Estas comunidades de programadores geralmente são heterógenas - são programadores que não pertencem necessariamente à mesma organização.
 
 Um bom exemplo é a [Linux Foundation](https://www.linuxfoundation.org/), uma organização sem fins lucrativos com reconhecimento mundial com milhares de colaboradores, que trabalham para o desenvolvimento de tecnologias e resolução de problemas de segurança críticos. Esta fundação open-source tem centenas de projetos colaborativos open-souce e é financiada por empresas como Microsoft,  Bloomberg, Intel, Huawei, IBM, Cisco, Fuitsu,  Oracle, Facebook, Accenture, Tshiba, Vmware, Adobe, Amazon Web Services, Bosch, ebay, Google [entre outras](https://www.linuxfoundation.org/members/corporate). 
+
 No entanto, existem muitas outras fundações OpenSource de sucesso ([Apache Software Foundation](https://www.apache.org), [Eclipse Foundation](https://eclipse.org/org/foundation/), [Mozilla Foundation](https://www.mozilla.org/) ) e outros projetos independentes ([Joomla](https://www.joomla.org/), [Wordpress](https://wordpress.org/))
 
 
@@ -81,9 +83,9 @@ A imagem abaixo, publicada no mesmo artigo, apresenta uma estrutura simplificada
 ### 8. O que dizem as instituições governamentais? {#P8}
 Em 2014, a Comissão Europeia publicou o "[Open source software strategy 2014-2017](https://ec.europa.eu/info/european-commissions-open-source-strategy_en)",  que visa reforçar o papel do software de código aberto para muitos dos seus principais serviços e soluções de software TIC. A estratégia renovada coloca uma ênfase especial nos contratos públicos, na contribuição para os projetos de software de código aberto e no fornecimento de software de código aberto na Comissão. Entre as 10 recomendações, destacam-se as seguintes:
 
-- "A Comissão deverá continuar a adotar formalmente,(...) o uso de tecnologias e produtos OSS "
-- "OSS tem um importante papel em projetos e-Government e deverá ser considerado no âmbito da framework dessas atividades."
-- "Para o desenvolvimento interno de novos sistemas de informação, em especial nos casos em que a distribuição está prevista por terceiros fora da infraestrutura da CE, o OSS deve ser a escolha preferida e ser utilizado sempre que possível"
+- _A Comissão deverá continuar a adotar formalmente,(...) o uso de tecnologias e produtos OSS_
+- _OSS tem um importante papel em projetos e-Government e deverá ser considerado no âmbito da framework dessas atividades._
+- _Para o desenvolvimento interno de novos sistemas de informação, em especial nos casos em que a distribuição está prevista por terceiros fora da infraestrutura da CE, o OSS deve ser a escolha preferida e ser utilizado sempre que possível_
 
 Em 2016, a Comissão Europeia tornou público o inventário das soluções open source utilizadas pela Comissão e pelo Parlamento Europeu, sendo esta uma das [metas](https://joinup.ec.europa.eu/community/eu-fossa/og_page/implementation) do projeto “EU Free and Open Source Software Auditing” (EU-FOSSA).
 
