@@ -5,7 +5,7 @@ Este FAQ pretende responder a questões comuns relacionadas com Open Source, abo
 1. [O que é Open Source?](#P1)
 2. [Porquê usar tecnologias Open Source?](#P2)
 3. [Como é possível ter suporte sem pagar pelo produto?](#P3)
-4. [Qual é o interesse de as empresas e dos países?](#P4)
+4. [Qual o interesse das empresas em ter serviços com código aberto?](#P4)
 5. [Porque é que alguém quereria desenvolver para um projeto Open Source sem ter retorno monetário?](#P5)
 6. [Qual é a estrutura de uma comunidade Open Source? Não há o risco de haverem pessoas mal-intencionadas? ](#P6)
 7. [Mas é código aberto! Como é que pode ser seguro?](#P7)
@@ -42,7 +42,7 @@ Um bom exemplo é a [Linux Foundation](https://www.linuxfoundation.org/), uma or
 No entanto, existem muitas outras fundações OpenSource de sucesso ([Apache Software Foundation](https://www.apache.org), [Eclipse Foundation](https://eclipse.org/org/foundation/), [Mozilla Foundation](https://www.mozilla.org/) ) e outros projetos independentes ([Joomla](https://www.joomla.org/), [Wordpress](https://wordpress.org/))
 
 
-### 4. Qual é o interesse de as empresas em ter serviços com código aberto? {#P4}
+### 4. Qual o interesse das empresas em ter serviços com código aberto? {#P4}
 Em prol da transparência, não basta apenas utilizar tecnologias Open Source - mas sim criar código aberto. Numa geração onde se procura a transparência, ter produtos OSS é, cada vez mais, sinónimo de boa publicidade, funcionando como um impulsionador de uma imagem positiva.
 
 Quando um projeto Open Source é atrativo, atrai contribuidores externos - permitindo avançar no projeto de forma mais rápida e com menos custos. Ao ter mais utilizadores, haverão cada vez mais casos de uso a serem explorados, resultando em um código mais robusto. Para além dos contribuidores individuais, poderá também estimular o espirito colaborativo entre empresas - ao facultar código, facilita a aprendizagem entre pares. A titulo de exemplo, podemos referir a [Box e o Facebook](https://blog.box.com/blog/box-on-hhvm/), duas empresas que trabalharam em conjunto para resolver problemas em uma  ferramenta que tinham em comum - HHVM (open-source PHP runtime).
