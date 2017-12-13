@@ -17,11 +17,10 @@ ex:`npm run build-android-bundle`
 
 **Nota 1:** ISTO VAI MUDAR NA PRÓXIMA VERSÃO DE NATIVECRIPT (3.4)
 
-**Nota 2:**
-
-* para o cartão com pdf(Testamento vital) temos que especificar algumas entradas no webpack config(`webpack.config.js` da linha 166 a 171)
+**Nota 2:** * para o cartão com pdf(Testamento vital) temos que especificar algumas entradas no webpack config(`webpack.config.js` da linha 166 a 171)
 
 **Nota 3:** É necessário validar se é preciso atualizar dependências regularmente (sempre que possivel, **diariamente**)
+
 ### Testes
 
 Executar e2e tests
@@ -36,7 +35,7 @@ Executar Unit tests
 
 #### iOS:
 
-Para para uma release para iOS é necessária uma conta itunes e executar `npm run publish-ios-bundle`
+Para fazer release para iOS é necessária uma conta itunes e executar `npm run publish-ios-bundle`
 
 #### Android:
 *  *build* com webpack(`npm run build-android-bundle --release --key-store-path ./my-release-key.keystore --key-store-password 916265505 --key-store-alias MySNSstore --key-store-alias-password 916265505`)
