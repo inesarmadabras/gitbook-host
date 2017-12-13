@@ -1,5 +1,7 @@
 # RoadMap
 
+![Roadmap](/images/plano_comlegenda.png)
+
 ##Geral
 - [ ]  **Integração CMD**
 - [ ]  Integração Área do Cidadão
