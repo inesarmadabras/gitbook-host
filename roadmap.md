@@ -3,23 +3,25 @@
 ![Roadmap](/images/plano_comlegenda.png)
 
 ##Geral
-- [ ]  **Integração CMD**
-- [ ]  Integração Área do Cidadão
+
+- [x]  Integração CMD
+- [x]  Integração Área do Cidadão
+- [ ]  **Cartão Atividade Fisica**
 - [ ]  Cartão de Avaliação de Episódios
-- [ ]  Cartão do Testamento Vital
-- [ ]  Cartão de Vacinas
+- [x]  Cartão do Testamento Vital
+- [x]  Cartão de Vacinas
 - [ ]  Cartão Contactar CSP
 - [ ]  Cartão Pessoa com Doença Rara
 - [ ]  Medições de Saúde
 - [ ]  Cartão Contactar Médico de Família
 - [ ]  Cartão Taxas Moderadoras
 - [ ]  Cartão dos Benefícios
-- [ ]  Cartão das Alergias
+- [ ]  **Cartão das Alergias**
 - [ ]  Cartão da Medicação Crónica
 - [ ]  Cartão de Emergência
 - [ ]  Cartão Saúde Oral - Cheque Dentista
 - [ ]  Cartão RCU2
-- [ ]  Cartão eGuia Tratamento (push)
+- [x]  Cartão eGuia Tratamento (push)
 - [ ]  Cartão Europeu de Seguro de Doença (com Segurança Social)
 - [ ]  Cartão do Dador (com IPST)
 - [ ]  Cartão CIT

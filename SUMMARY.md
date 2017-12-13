@@ -33,6 +33,8 @@
 --
 
 * [Exemplos](exemplos.md)
+* [Developer Guide](dguide.md)
+
 * [Release Notes](release_notes.md)
 * [Roadmap](roadmap.md)
 
