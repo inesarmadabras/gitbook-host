@@ -53,7 +53,7 @@ Para para uma release para iOS é necessária uma conta itunes e executar `npm r
 * ngrx e componentes normais precisam de testes
 * Testes e2e precisam de uma conta demo do backend
 
-**Cartão Atividade Fisica / Medições de Saúde
+**Cartão Atividade Fisica / Medições de Saúde**
 * o plugin `nativescript-health-data` também tem um *pull request* pendente para retornar dados uniformes (foi libertada internamente uma versão com as mudanças desse *pull request*)
 * estamos a usar uma versão interna do circle plugin na **atividade fisica** por causa de um *pull request* que fizemos. Enquanto isso o autor lançou uma versão mais recente (então isso precisa ser atualizado)
 
