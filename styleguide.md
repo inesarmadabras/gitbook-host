@@ -258,19 +258,18 @@ Ao submeter um *issue* deverá indicar as seguintes informações:
 
 Antes de submeter um pull request, considere as seguintes *guidelines*:
 
-* Make your changes in a new git branch:
+* Fazer as mudanças num novo git branch:
 
      ```shell
      git checkout -b my-fix-branch master
      ```
 
-* Create your patch, **including appropriate test cases**.
-* Follow our Coding Rules.
-* Commit your changes using a descriptive commit message.
+* Criar um patch, **incluindo casos de teste adequados **.
+* Commitar as mudanças com uma mensagem descritivas (commit message).
      ```shell
      git commit -a
      ```
-  Note: the optional commit `-a` command line option will automatically "add" and "rm" edited files.
+  Nota:  `-a` é opcional e adiciona automaticamente "add" e "rm" .
 
 
 ### 3. Commit Message Guidelines {#G3}
