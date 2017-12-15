@@ -21,7 +21,18 @@ ex:`npm run build-android-bundle`
 
 **Nota 3:** É necessário validar se é preciso atualizar dependências regularmente (sempre que possivel, **diariamente**)
 
-### Testes
+
+### Git,Testes, Continuous Integration
+
+## Git
+O workflow do repositorio de git é muito simples, é composto por duas branches principais, a `master` tem a última versão que esta nas stores, a `development` é a proxima iteraçao da aplicação, cada feature que é implementada ou bug corrigido tem uma branch nova com um nome sugestivo em relaçao ao conteudo da mesma, no final da implementação o developer submete um pull request que postriormente tem de ser aprovado por outro membro da equipa, a cada pull request a Continuous Integration corre testes unitarios e testes e2e!
+Ao fazer uma release a branch development dá merge com a master e cria-se uma tag com a versao que foi released 
+
+
+
+## Testes 
+O project tem suporte a testes unitarios, há ja algum testes feitos (app/tests) o suficiente para enterder como se fazem o resto dos testes
+Tem tambem testes end-to-end, a documentaçao da ferramenta usada(plugin `nativescript-appium`), e basicamente deve-se mimicar o comportamento do utilizador ao usar a aplicaçao, isto nao esta de momento implementado porqur o backend ainda nao suporta na totalidade um ambiente de qualidade/devenvolvimento i.e. nao ha utilizador de demos com todos os cartões. O plugin tem tambem a funcionalidade de fazer `screenshot diffing` 
 
 Executar e2e tests
 
@@ -30,6 +41,9 @@ Executar e2e tests
 Executar Unit tests
 
 	test <Platform>
+
+## CI
+Neste momento pode ser usada a ci do VSTS, o mac mini tem um [agente](https://github.com/Microsoft/vsts-agent)(script executado na consola) que se liga ao vsts, apartir dai quando ha um pull request pode ser especificado no vsts o que correr, neste caso queremos correr os testes unitarios e e2e, nao esquecer de ter dois emuladores, ou dispositivos ligados para os testes correrem nos mesmoS
 
 ### Releasing process
 
@@ -46,7 +60,7 @@ Para fazer release para iOS é necessária uma conta itunes e executar `npm run 
 * Alguns dos plugins estão no nosso registro npm interno porque precisavam de modificações
 * O plugin `nativescript-hook-debug-production` não funciona bem (não deteta o debug no modo de lançamento, mas recebemos um *pull request* para corrigir. Esperar pela nova versão do nativescript porque precisamos ter o Webpack a trabalhar com ele)
 * há muitas coisas que podem ser otimizadas para o ngrx
-* sentry plugin foi atualizado
+* a dependência `hoek` serve para usar a mesma engine de validação de campos(comunicaçao cliente Servidor) que os packages `@ces-sec/*`, internamente temos uma versão(4.1.99) publicada no resgistro interno de npm, o ambiente de Nativescript nao suporta algumas primitivas de node, então o package tem apenas retiradas algumas linhas que não eram necessárias
 * nativescript `advanced-webview-interface` também possui uma versão interna (internal release, pois o autor está inativo)
 * Vendor.ts precisa de algumas otimizações, agora existem algumas bibliotecas repetidas nos diferentes módulos do aplicativo (https://docs.nativescript.org/best-practices/bundling-with-webpack)
 * ngrx e componentes normais precisam de testes
