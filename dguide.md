@@ -25,13 +25,18 @@ ex:`npm run build-android-bundle`
 ### Git,Testes, Continuous Integration
 
 ## Git
-O workflow do repositorio de git é muito simples, é composto por duas branches principais, a `master` tem a última versão que esta nas stores, a `development` é a proxima iteraçao da aplicação, cada feature que é implementada ou bug corrigido tem uma branch nova com um nome sugestivo em relaçao ao conteudo da mesma, no final da implementação o developer submete um pull request que postriormente tem de ser aprovado por outro membro da equipa, a cada pull request a Continuous Integration corre testes unitarios e testes e2e!
-Ao fazer uma release a branch development dá merge com a master e cria-se uma tag com a versao que foi released 
+O workflow do repositorio de git é muito simples, é composto por duas branches principais, a `master` tem a última versão que esta nas stores, a `development` é a proxima iteração da aplicação. 
 
+Cada feature que é implementada ou bug corrigido tem uma branch nova com um nome sugestivo em relação ao conteudo da mesma.
+
+No final da implementação o developer submete um pull request que postriormente tem de ser aprovado por outro membro da equipa, a cada pull request a Continuous Integration corre testes unitarios e testes e2e!
+
+Ao fazer uma release a branch development dá merge com a master e cria-se uma tag com a versao que foi released 
 
 
 ## Testes 
 O project tem suporte a testes unitarios, há ja algum testes feitos (app/tests) o suficiente para enterder como se fazem o resto dos testes
+
 Tem tambem testes end-to-end, a documentaçao da ferramenta usada(plugin `nativescript-appium`), e basicamente deve-se mimicar o comportamento do utilizador ao usar a aplicaçao, isto nao esta de momento implementado porqur o backend ainda nao suporta na totalidade um ambiente de qualidade/devenvolvimento i.e. nao ha utilizador de demos com todos os cartões. O plugin tem tambem a funcionalidade de fazer `screenshot diffing` 
 
 Executar e2e tests
