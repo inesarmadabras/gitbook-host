@@ -64,7 +64,7 @@ Versão suportada: `**3.x**`
 > Muito obrigado pela sua mensagem. É através das opiniões e sugestões dos cidadãos que conseguimos melhorar as nossas aplicações.  
 > Durante as próximas semanas iremos lançar novas atualizações com várias correções e novos recursos.
 >
-> A MySNS Carteira é uma aplicação em contante desenvolvimento e testes. Agradecemos qualquer contribuição por parte dos cidadãos.   
+> A MySNS Carteira é uma aplicação em contante desenvolvimento e testes. Agradecemos qualquer contribuição por parte dos cidadãos.  
 > Espero que continue a utilizar a MySNS Carteira e que as atualizações sejam do seu agrado.
 
 ### 5. Problemas de instalação da aplicação {#P5}
@@ -124,7 +124,7 @@ Ex. como atualizar o dispositivo móvel
 >
 > Já estamos a trabalhar na solução. Deverá estar resolvido numa futura atualização, com a maior brevidade possível.
 >
-> A MySNS Carteira é uma aplicação em contante desenvolvimento e testes. Agradecemos qualquer contribuição por parte dos cidadãos. Durante as próximas semanas iremos disponibilizar novas atualizações com várias correções e novos recursos.  
+> A MySNS Carteira é uma aplicação em constante desenvolvimento e testes. Agradecemos qualquer contribuição por parte dos cidadãos. Durante as próximas semanas iremos disponibilizar novas atualizações com várias correções e novos recursos.  
 > Com os melhores cumprimentos,
 
 ### 7. Problema já resolvido {#P6}
