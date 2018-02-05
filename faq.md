@@ -16,6 +16,8 @@ Versão suportada: `**3.x**`
    * 5.2 [Sistema Operativo \(SO\) não suportado \(Windows Phone\)](#P52)
    * 5.3 [Versão de SO não suportada \(&lt; iOS 8 / &lt; Android 4.2 \)](#P53)
 6. [Problema a ser resolvido](#P6)
+7. Problema já resolvido
+8. Funcionalidade não existente
 
 ### 1. Problemas no Registo {#P1}
 
@@ -40,9 +42,9 @@ Versão suportada: `**3.x**`
 
 #### 2.2 Código PIN inválido/esquecido {#P22}
 
-> Muito obrigado pela sua mensagem. É através das opiniões e sugestões dos cidadãos que conseguimos melhorar as nossas aplicações. 
+> Muito obrigado pela sua mensagem. É através das opiniões e sugestões dos cidadãos que conseguimos melhorar as nossas aplicações.
 >
-> O PIN da carteira trata-se de um código de segurança pessoal, escolhido pelo cidadão, pelo que, de modo a manter a total segurança dos dados, não há forma de o recuperar. Assim sendo, deverá errar o PIN 3 vezes, de modo a poder terminar sessão e voltar a ativar a MySNS Carteira, escolher um novo PIN e voltar a adicionar os cartões que quer ter sempre consigo. 
+> O PIN da carteira trata-se de um código de segurança pessoal, escolhido pelo cidadão, pelo que, de modo a manter a total segurança dos dados, não há forma de o recuperar. Assim sendo, deverá errar o PIN 3 vezes, de modo a poder terminar sessão e voltar a ativar a MySNS Carteira, escolher um novo PIN e voltar a adicionar os cartões que quer ter sempre consigo.
 >
 > Espero que continue a utilizar a MySNS Carteira e que as atualizações sejam do seu agrado.
 
@@ -52,7 +54,7 @@ Versão suportada: `**3.x**`
 
 > Obrigado pela sua mensagem.
 >
-> A MySNS Carteira é uma aplicação em contante desenvolvimento e testes. Agradecemos qualquer contribuição por parte dos cidadãos.   
+> A MySNS Carteira é uma aplicação em contante desenvolvimento e testes. Agradecemos qualquer contribuição por parte dos cidadãos.  
 > Durante as próximas semanas iremos lançar novas atualizações com várias correções e novos recursos.
 >
 > Pode-nos indicar qual o dispositivo móvel que utilizou \(modelo e versão\), de modo a que nos seja possível averiguar a situação?
@@ -62,7 +64,7 @@ Versão suportada: `**3.x**`
 > Muito obrigado pela sua mensagem. É através das opiniões e sugestões dos cidadãos que conseguimos melhorar as nossas aplicações.  
 > Durante as próximas semanas iremos lançar novas atualizações com várias correções e novos recursos.
 >
-> A MySNS Carteira é uma aplicação em contante desenvolvimento e testes. Agradecemos qualquer contribuição por parte dos cidadãos. 
+> A MySNS Carteira é uma aplicação em contante desenvolvimento e testes. Agradecemos qualquer contribuição por parte dos cidadãos.   
 > Espero que continue a utilizar a MySNS Carteira e que as atualizações sejam do seu agrado.
 
 ### 5. Problemas de instalação da aplicação {#P5}
@@ -82,7 +84,7 @@ Ex. como atualizar o dispositivo móvel
 
 > Muito obrigado pela sua mensagem. É através das opiniões e sugestões dos cidadãos que conseguimos melhorar as nossas aplicações.
 >
-> De acordo com os Princípios gerais da Lei de bases da Saúde, o Ministério da Saúde \(MS\), promove o acesso de todos os cidadãos aos cuidados de saúde, bem como o acesso a todos os restantes serviços disponibilizados.   
+> De acordo com os Princípios gerais da Lei de bases da Saúde, o Ministério da Saúde \(MS\), promove o acesso de todos os cidadãos aos cuidados de saúde, bem como o acesso a todos os restantes serviços disponibilizados.  
 > Sendo o acesso garantido nos limites dos recursos humanos, técnicos e financeiros disponíveis de acordo com o ponto 2 dos Princípios gerais, não foi ainda possível ao MS desenvolver todo o ecossistema de aplicações mobile para a plataforma Windows Mobile.
 >
 > A plataforma Windows com todas as suas versões representa 2,5% da quota de mercado de sistemas operativos para telemóvel, representando o Windows 10 uma percentagem inferior. Tendo o MS analisado o mercado e suas tendências percecionou que existe uma redução na utilização destas plataformas em detrimento das plataformas IOS e Android. A análise de mercado efetuada realça ainda a falta de aposta das marcas no lançamento de novos dispositivos e da Microsoft com um desinvestimento nas próprias plataformas. Estes dados podem ser consultados em [http://www.theverge.com/2016/3/30/11333378/microsoft-windows-phone-windows-mobile-plans](http://www.theverge.com/2016/3/30/11333378/microsoft-windows-phone-windows-mobile-plans)
@@ -97,8 +99,6 @@ Ex. como atualizar o dispositivo móvel
 
 **Versão curta:**
 
-
-
 > Muito obrigado pela sua mensagem. É através das opiniões e sugestões dos cidadãos que conseguimos melhorar as nossas aplicações. Infelizmente, apenas suportamos a partir da versão Android 4.2 - versão de sistema operativo não disponibilizada para o seu dispositivo móvel. Tendo em conta os dados publicados no início de janeiro de 2018, no caso do sistema operativo Android, as versões anteriores à 4.2 representam apenas 2,8% da quota de mercado deste sistema operativo.
 >
 > De acordo com os Princípios gerais da Lei de bases da Saúde, o Ministério da Saúde \(MS\), promove o acesso de todos os cidadãos aos cuidados de saúde, bem como o acesso a todos os restantes serviços disponibilizados. Sendo o acesso garantido nos limites dos recursos humanos, técnicos e financeiros disponíveis de acordo com o ponto 2 dos Princípios gerais, não foi possível ao MS desenvolver todo o ecossistema de aplicações mobile para a versões anteriores à 4.2 para Android.
@@ -108,9 +108,9 @@ Ex. como atualizar o dispositivo móvel
 **Versão longa:**
 
 > Muito obrigado pela sua mensagem. É através das opiniões e sugestões dos cidadãos que conseguimos melhorar as nossas aplicações.  
-> De acordo com os Princípios gerais da Lei de bases da Saúde, o Ministério da Saúde \(MS\), promove o acesso de todos os cidadãos aos cuidados de saúde, bem como o acesso a todos os restantes serviços disponibilizados.   
-> Sendo o acesso garantido nos limites dos recursos humanos, técnicos e financeiros disponíveis de acordo com o ponto 2 dos Princípios gerais, não foi ainda possível ao MS desenvolver todo o ecossistema de aplicações mobile para a versões anteriores à 4.2 para Android e, no caso do iOS , inferior à versão 8.   
-> Tendo em conta os dados publicados no início de janeiro de 2017, no caso do sistema operativo Android, as versões anteriores à 4.2 representam apenas 13,7% da quota de mercado deste sistema operativo. Quanto ao sistema operativo iOS e ao número de utilizadores de versões inferiores ao iOS 8, tal valor é inferior a 6% tendo em conta todo o universo iPhone.   
+> De acordo com os Princípios gerais da Lei de bases da Saúde, o Ministério da Saúde \(MS\), promove o acesso de todos os cidadãos aos cuidados de saúde, bem como o acesso a todos os restantes serviços disponibilizados.  
+> Sendo o acesso garantido nos limites dos recursos humanos, técnicos e financeiros disponíveis de acordo com o ponto 2 dos Princípios gerais, não foi ainda possível ao MS desenvolver todo o ecossistema de aplicações mobile para a versões anteriores à 4.2 para Android e, no caso do iOS , inferior à versão 8.  
+> Tendo em conta os dados publicados no início de janeiro de 2017, no caso do sistema operativo Android, as versões anteriores à 4.2 representam apenas 13,7% da quota de mercado deste sistema operativo. Quanto ao sistema operativo iOS e ao número de utilizadores de versões inferiores ao iOS 8, tal valor é inferior a 6% tendo em conta todo o universo iPhone.  
 > Tendo o MS analisado o mercado e suas tendências percecionou que existe uma redução na utilização destas. Estes dados podem ser consultados em [https://developer.android.com/about/dashboards/index.html](https://developer.android.com/about/dashboards/index.html) no caso do Android e em [https://developer.apple.com/support/app-store/](https://developer.apple.com/support/app-store/) para iOS.  
 > Considerando os pontos anteriores, o MS realizou o impacto do esforço de desenvolvimento para estas versões dos sistemas operativos em causa, tendo as ferramentas de desenvolvimento sofrido várias alterações que colocam em risco projetos de desenvolvimento.
 >
@@ -124,28 +124,24 @@ Ex. como atualizar o dispositivo móvel
 >
 > Já estamos a trabalhar na solução. Deverá estar resolvido numa futura atualização, com a maior brevidade possível.
 >
-> A MySNS Carteira é uma aplicação em contante desenvolvimento e testes. Agradecemos qualquer contribuição por parte dos cidadãos. Durante as próximas semanas iremos disponibilizar novas atualizações com várias correções e novos recursos.
+> A MySNS Carteira é uma aplicação em contante desenvolvimento e testes. Agradecemos qualquer contribuição por parte dos cidadãos. Durante as próximas semanas iremos disponibilizar novas atualizações com várias correções e novos recursos.  
 > Com os melhores cumprimentos,
 
 ### 7. Problema já resolvido {#P6}
 
-> Boa tarde, Muito obrigado pela sua mensagem. 
+> Boa tarde, Muito obrigado pela sua mensagem.
 >
-> É através das opiniões e sugestões dos cidadãos que conseguimos melhorar as nossas aplicações. A situação já se encontra resolvida. 
+> É através das opiniões e sugestões dos cidadãos que conseguimos melhorar as nossas aplicações. A situação já se encontra resolvida.
 >
->  A MySNS Carteira é uma aplicação em contante desenvolvimento e testes. Agradecemos qualquer contribuição por parte dos cidadãos. Durante as próximas semanas iremos disponibilizar novas atualizações com várias correções e novos recursos. Com os melhores cumprimentos,
+> A MySNS Carteira é uma aplicação em contante desenvolvimento e testes. Agradecemos qualquer contribuição por parte dos cidadãos. Durante as próximas semanas iremos disponibilizar novas atualizações com várias correções e novos recursos. Com os melhores cumprimentos,
 
 ### 8. Funcionalidade não existente {#P6}
 
-> Boa tarde, Muito obrigado pela sua mensagem. É através das opiniões e sugestões dos cidadãos que conseguimos melhorar as nossas aplicações. 
+> Boa tarde, Muito obrigado pela sua mensagem. É através das opiniões e sugestões dos cidadãos que conseguimos melhorar as nossas aplicações.
 >
 > Esta funcionalidade ainda não está disponível na MySNS Carteira. No entanto, vamos ter em conta a sua sugestão.
-
+>
 > A MySNS Carteira é uma aplicação em contante desenvolvimento e testes. Agradecemos qualquer contribuição por parte dos cidadãos. Durante as próximas semanas iremos disponibilizar novas atualizações com várias correções e novos recursos. Com os melhores cumprimentos,
-
-
-
-
 
 
 
