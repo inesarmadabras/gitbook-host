@@ -9,7 +9,7 @@
 3. usar nativescript para executar o projecto
 
 ### WebPack
-Isso torna a aplicação do buraco muito mais rápida
+Isto torna toda a aplicação muito mais rápida
 
 Para construir com antecedência, deve executar comandos npm (ver o projeto package.json)
 
