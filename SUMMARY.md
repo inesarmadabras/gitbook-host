@@ -8,6 +8,7 @@
     * [Como ativar](README.md#ativar)
     * [Como adicionar cartões](README.md#addcartoes)
 * [FAQ - Suporte](faq.md)
+* [FAQ - Tempos](faqtempos.md)
 * [OpenSource - Porquê?](opensource.md)
 
 * [Instalação e Setup](install&setup.md)
