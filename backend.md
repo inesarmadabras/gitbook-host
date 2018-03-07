@@ -14,7 +14,12 @@ A orquestração é feita segundo um ficheiro de configuração – `docker-comp
 * **Autenticação RNU** - responsável pela validação dos dados. Se forem validos, responde OK e envia uma sms com codigo TOTP pelo serviço da SPMS e faz um novo reply com o codigo TOTP (2-step authentication).
 * **Autenticação CMD** - redirecciona o cidadão para a pagina [Autenticação.GOV](https://www.autenticacao.gov.pt). Depois de o cidadão se autenticar, é gerada uma chave.
 * **Dispatcher** - toda a comunicação da CeS, excepto Telemetria e Autenticação. No futuro, irá fazer a avaliação de Requests e Replies.
-* **Notificações** -
+* **Notification-Controller** - responsável por processar as mensagens do Cluster Redis, armazenar notificações e dados estatísticos na DB e enviar notificações para o serviço Relay.
+* **Notification-Relay** - responsável por consumir as notificações da fila de mensagens no Redis e enviá-las para o Firebase e para o Apple Push Notification Service.
+* **Notification-Service** - expõe os endpoints necessários para interagir com o serviço de notificações. Algumas das operações disponibilizadas são por exemplo: a recepção de notificações, subscrição de dispositivos, actualização do estado de entrega de notificações, entre outras.
+* **Redis-Cluster** - contém um Cluster Redis que serve de cache para as notificações.
+* **Redis-MQ** - contém uma fila para onde as notificações depois de processadas são enviadas para serem posteriormente consumidas pelo subscritor (o serviço Relay). 
+* **Logging** - auditorias e logs
 * **Telemetria** - dados estatísticos \(quantas pessoas iniciaram sessão, descarregaram  cartões, etc\)
 * **Logging** - auditorias e logs
 
@@ -44,7 +49,8 @@ No **Core** do Azure Container Service, encontram-se os serviços que comunicam 
 * [PM2](#pm2)
 * [Docker](#docker)
 * [DocumentDB / MongoDB](#docDB)
-* [NGINX](#nginx)
+* [Traefik](#traefik)
+* [Redis](#redis)
 * [NPM modules](#npm) 
 
 #### Node.js {#nodejs}
@@ -103,7 +109,7 @@ Docker é um projeto open-source que permite criar um contentor \(container\) co
 #### DocumentDB / MongoDB {#docDB}
 
 **MongoDB**  
-Base de Dados NoSQL open-source e cross-platform, sem esquemas \(_schemaless_\), orientado a documentos. Tem um bom suporte de JavaScript e uma grandde comunidade.  
+Base de Dados NoSQL open-source e cross-platform, sem esquemas \(_schemaless_\), orientado a documentos. Tem um bom suporte de JavaScript e uma grande comunidade.  
 A informação é guardada no formato JSON.  
 É utilizado por: Forbes, BOSCH, Facebook, GOV.UK, McAfee, etc.
 
@@ -114,13 +120,23 @@ Base de Dados semelhante ao MongoDB, mas gerida na Cloud. Pertence à Microsoft 
 
 * [Documentação](https://docs.microsoft.com/pt-pt/azure/documentdb/)
 
-#### NGINX {#nginx}
+#### Traefik {#traefik}
 
-NGINX é um servidor HTTP e reverse proxy open-source e de alta performance. Utilizado na CeS como reverse proxy, possui uma boa comunidade, com suporte comercial.  
-É utilizado por: Netflix, Hulu, GitHub, Airbnb, WorkPress, Eventbrite, etc
+Traefik é um reverse proxy HTTP moderno e um controlador de carga (load balancer), desenvolvido para disponibilizar microserviços facilmente. Suporta vários backends (Docker, Kubernetes,...) sendo capaz de gerir a sua configuração de uma forma automática e dinâmica. Trata-se de uma tecnologia recente que tem tido uma enorme aceitação, oferece suporte comercial sendo ideal para sistemas assentes em Docker. Na CeS, é utilizado como reverse proxy para encaminhar os pedidos para os contentores Docker correctos.
+É utilizado por: Viadeo, Yotpo, Songkick, 3Blades, entre outros.
 
-* [Mais Informações](https://www.nginx.com/)
-* [Documentação](https://www.nginx.com/resources/wiki/)
+* [Mais Informações](https://traefik.io/)
+* [Documentação](https://docs.traefik.io/)
+
+#### Redis {#redis}
+
+Redis é uma estrutura de dados em memória, utilizada como base de dados ou cache. O Redis oferece nativamente replicação e elevada disponibilidade sobre os dados que armazena. Oferece suporte comercial através do RedisLabs e possui uma comunidade activa.
+No contexto da CeS é utilizado como cache para o armazenamento provisório de notificações e como queue através de um modelo de publish/subscribe, onde o serviço responsável pelo envio das notificações para os diversos dispositivos consome as notificações que são publicadas na queue.
+
+É utilizado por: Twitter, Hipmunk, Airbnb, Codecademy, Uber, entre outros.
+
+* [Mais Informações](https://redis.io/)
+* [Documentação](https://redis.io/documentation)
 
 #### NPM modules {#npm}
 
