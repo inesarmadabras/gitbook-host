@@ -16,8 +16,9 @@ Versão suportada: `**3.x**`
    * 5.2 [Sistema Operativo \(SO\) não suportado \(Windows Phone\)](#P52)
    * 5.3 [Versão de SO não suportada \(&lt; iOS 8 / &lt; Android 4.2 \)](#P53)
 6. [Problema a ser resolvido](#P6)
-7. Problema já resolvido
-8. Funcionalidade não existente
+7. [Problema já resolvido](#P7)
+8. [Funcionalidade não existente](#P8)
+9. [Adicionar Agregado Familiar](#P9)
 
 ### 1. Problemas no Registo {#P1}
 
@@ -127,7 +128,7 @@ Ex. como atualizar o dispositivo móvel
 > A MySNS Carteira é uma aplicação em constante desenvolvimento e testes. Agradecemos qualquer contribuição por parte dos cidadãos. Durante as próximas semanas iremos disponibilizar novas atualizações com várias correções e novos recursos.  
 > Com os melhores cumprimentos,
 
-### 7. Problema já resolvido {#P6}
+### 7. Problema já resolvido {#P7}
 
 > Boa tarde, Muito obrigado pela sua mensagem.
 >
@@ -135,13 +136,23 @@ Ex. como atualizar o dispositivo móvel
 >
 > A MySNS Carteira é uma aplicação em contante desenvolvimento e testes. Agradecemos qualquer contribuição por parte dos cidadãos. Durante as próximas semanas iremos disponibilizar novas atualizações com várias correções e novos recursos. Com os melhores cumprimentos,
 
-### 8. Funcionalidade não existente {#P6}
+### 8. Funcionalidade não existente {#P8}
 
 > Boa tarde, Muito obrigado pela sua mensagem. É através das opiniões e sugestões dos cidadãos que conseguimos melhorar as nossas aplicações.
 >
 > Esta funcionalidade ainda não está disponível na MySNS Carteira. No entanto, vamos ter em conta a sua sugestão.
 >
 > A MySNS Carteira é uma aplicação em contante desenvolvimento e testes. Agradecemos qualquer contribuição por parte dos cidadãos. Durante as próximas semanas iremos disponibilizar novas atualizações com várias correções e novos recursos. Com os melhores cumprimentos,
+
+### 9. Adicionar Agregado Familiar {#P9}
+
+> Muito obrigado pela sua mensagem. É através das opiniões e sugestões dos cidadãos que conseguimos melhorar as nossas aplicações.  
+> A possibilidade de adicionar o agregado familiar já está a ser estudada, no entanto é uma situação de elevada complexidade do ponto de vista legal. 
+> Durante as próximas semanas iremos lançar novas atualizações com várias correções e novos recursos.
+>
+> A MySNS Carteira é uma aplicação em contante desenvolvimento e testes. Agradecemos qualquer contribuição por parte dos cidadãos.  
+> Espero que continue a utilizar a MySNS Carteira e que as atualizações sejam do seu agrado.
+
 
 
 
