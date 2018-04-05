@@ -55,7 +55,7 @@ Versão suportada: `**3.x**`
 
 > Obrigado pela sua mensagem.
 >
-> A MySNS Carteira é uma aplicação em contante desenvolvimento e testes. Agradecemos qualquer contribuição por parte dos cidadãos.  
+> A MySNS Carteira é uma aplicação em constante desenvolvimento e testes. Agradecemos qualquer contribuição por parte dos cidadãos.  
 > Durante as próximas semanas iremos lançar novas atualizações com várias correções e novos recursos.
 >
 > Pode-nos indicar qual o dispositivo móvel que utilizou \(modelo e versão\), de modo a que nos seja possível averiguar a situação?
@@ -65,7 +65,7 @@ Versão suportada: `**3.x**`
 > Muito obrigado pela sua mensagem. É através das opiniões e sugestões dos cidadãos que conseguimos melhorar as nossas aplicações.  
 > Durante as próximas semanas iremos lançar novas atualizações com várias correções e novos recursos.
 >
-> A MySNS Carteira é uma aplicação em contante desenvolvimento e testes. Agradecemos qualquer contribuição por parte dos cidadãos.  
+> A MySNS Carteira é uma aplicação em constante desenvolvimento e testes. Agradecemos qualquer contribuição por parte dos cidadãos.  
 > Espero que continue a utilizar a MySNS Carteira e que as atualizações sejam do seu agrado.
 
 ### 5. Problemas de instalação da aplicação {#P5}
@@ -134,7 +134,7 @@ Ex. como atualizar o dispositivo móvel
 >
 > É através das opiniões e sugestões dos cidadãos que conseguimos melhorar as nossas aplicações. A situação já se encontra resolvida.
 >
-> A MySNS Carteira é uma aplicação em contante desenvolvimento e testes. Agradecemos qualquer contribuição por parte dos cidadãos. Durante as próximas semanas iremos disponibilizar novas atualizações com várias correções e novos recursos. Com os melhores cumprimentos,
+> A MySNS Carteira é uma aplicação em constante desenvolvimento e testes. Agradecemos qualquer contribuição por parte dos cidadãos. Durante as próximas semanas iremos disponibilizar novas atualizações com várias correções e novos recursos. Com os melhores cumprimentos,
 
 ### 8. Funcionalidade não existente {#P8}
 
@@ -142,7 +142,7 @@ Ex. como atualizar o dispositivo móvel
 >
 > Esta funcionalidade ainda não está disponível na MySNS Carteira. No entanto, vamos ter em conta a sua sugestão.
 >
-> A MySNS Carteira é uma aplicação em contante desenvolvimento e testes. Agradecemos qualquer contribuição por parte dos cidadãos. Durante as próximas semanas iremos disponibilizar novas atualizações com várias correções e novos recursos. Com os melhores cumprimentos,
+> A MySNS Carteira é uma aplicação em constante desenvolvimento e testes. Agradecemos qualquer contribuição por parte dos cidadãos. Durante as próximas semanas iremos disponibilizar novas atualizações com várias correções e novos recursos. Com os melhores cumprimentos,
 
 ### 9. Adicionar Agregado Familiar {#P9}
 
@@ -150,7 +150,7 @@ Ex. como atualizar o dispositivo móvel
 > A possibilidade de adicionar o agregado familiar já está a ser estudada, no entanto é uma situação de elevada complexidade do ponto de vista legal. 
 > Durante as próximas semanas iremos lançar novas atualizações com várias correções e novos recursos.
 >
-> A MySNS Carteira é uma aplicação em contante desenvolvimento e testes. Agradecemos qualquer contribuição por parte dos cidadãos.  
+> A MySNS Carteira é uma aplicação em constante desenvolvimento e testes. Agradecemos qualquer contribuição por parte dos cidadãos.  
 > Espero que continue a utilizar a MySNS Carteira e que as atualizações sejam do seu agrado.
 
 
